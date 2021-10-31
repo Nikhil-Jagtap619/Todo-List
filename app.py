@@ -23,6 +23,7 @@ ws.resizable(width=False, height=True)
 ws.config(bg="#312244")
 
 
+
 #create widgets like frame, buttons, scrollbar, listbox and inputbox (4)
 frame = Frame(ws)
 frame.pack(pady=10)
@@ -91,6 +92,10 @@ delete_button = Button(
 
 )
 delete_button.pack(side=LEFT, fill=BOTH, expand=True)
+
+#credits
+txt = Label(ws, text="made by senpai_knock")
+txt.pack(pady=10)
 
 #start a loop in order to see the tkinter window, mainloop(3)
 ws.mainloop()
